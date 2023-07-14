@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>perulangan for</title>
+   <script>
+  var produk=["TV","Kulkas","PC","Laptop"];
+  produk[4]="LCD";//menambah data
+  produk.push("MOTOR");//menambah data
+  produk.pop();//delete data dari belakang
+  produk.shift();//delete data dari depan
+  produk.splice(4,1);//delete data dari index tertentu 4 arraynya 1 jumlah datanya
+  
+  produk[1]="Personal Komputer";
+  document.write("<h3>daftar produk</h3>");
+  document.write("<ol>");
+  for(let a=0;a<produk.length;a++){
+  document.write(`<li>${produk[a]}</li>`);
+  }
+  document.write("</ol>");
+  
+  </script>
+  </head>
+  <body> 
+  </body>
+</html> 

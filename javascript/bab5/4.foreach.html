@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>perulangan foreach</title>
+   <script>
+   var bahasa=["jawa","indonsia","arab","inggris"];
+   for(i=0;i<bahasa.length;i++){
+   document.write(i+"."+bahasa[i]+"</br>");
+   }
+   document.write("-------------</br>");
+   for(i in bahasa){
+   document.write(i+"."+bahasa[i]+"</br>");
+   }
+   document.write("-------------</br>");
+   bahasa.forEach(function(bahasa_saya){
+   document.write("<p>"+bahasa_saya+"</p>");
+   });
+   document.write("-------------</br>");
+   bahasa.forEach((bahasa_saya)=>{
+   document.write("<p>"+bahasa_saya+"</p>");
+   });
+  </script>
+  </head>
+  <body> 
+  </body>
+</html> 

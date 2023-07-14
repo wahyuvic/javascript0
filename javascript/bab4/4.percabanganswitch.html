@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>percabangan if else</title>
+   <script>
+   var jawab=prompt("silahkan input hadiah 1 sampai 5 ");
+   var hadiah="";
+   switch(jawab){
+   case "1":
+   hadiah="tisu";
+   break;
+   case "2":
+   hadiah="Ayam";
+   break;
+   case "3":
+   hadiah="Kambing";
+   break;
+   case "4":
+   hadiah="Sapi";
+   break;
+   case "5":
+   hadiah="uang Rp 50000";
+   break;
+   default:
+   document.write("<p>anda salah pilih</p>");   
+   }
+   if(hadiah===""){
+   document.write("<p>gagal dapat hadiah</p>");   
+   }
+   else{
+   document.write("<p>selamat anda mendapatkan hadiah "+hadiah+"</p>");   
+
+   }
+   
+  </script>
+  </head>
+  <body>
+  <div id="hasil">
+  </div>
+ 
+  </body>
+</html> 

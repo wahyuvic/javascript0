@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Dom Api javascript </title>
+  
+  </head>
+  <body> 
+  <p class ="contoh">Di sebuah gubuk tua, tinggallah seorang gadis bernama Elisa bersama ibu dan adiknya. Ayahnya telah meninggal sehingga tulang punggung keluarga hanyalah ibunya. Elisa harus putus sekolah karena ibunya sudah tidak sanggup membiayai sekolah Elisa. Untuk membantu ibunya, Elisa bekerja pada tetangganya yang memiliki rumah besar. Pada suatu pagi ketika hendak bekerja Elisa melihat kakek tua.</p>
+  <p class ="contoh">Kakek tua itu tampaknya sangat lelah dan tersungkur di jalan. Kakek itu lalu meminta tolong dan Elisa segera membantu kakek tersebut. Elisa kemudian mengobati luka kakek sembari berbincang. Kakek menanyakan tentang hidup Elisa dan Elisa menceritakan semuanya. Setelah cukup beristirahat Elisa menawarkan untuk mengantar si kakek akan tetapi kakek tua menolak dan memberikan sepotong kain.</p>
+  <p class ="contoh">Di dalam sepotong kain yang diberikan kakek tua, terdapat 3 butir jagung berwarna emas. Kakek tua berpesan bahwa jagung ini adalah jagung ajaib. Jika ditanam dengan ikhlas dan sabar maka akan membuahkan hasil yang memuaskan. Elisa berterimakasih dan melanjutkan perjalanan untuk bekerja. Setelah pulang, Elisa menceritakan kejadian dan jagung emas kepada sang ibu.</p>
+   <script>
+  var contoh = document.getElementsByClassName("contoh");
+  setInterval(function(){
+	contoh[0].style.color="red";
+	contoh[1].style.color="green";
+	contoh[2].style.color="blue";
+	  setTimeout(function(){
+		contoh[0].style.color="black";
+		contoh[1].style.color="black";
+		contoh[2].style.color="black";
+	  },500)
+	},1000);
+  </script>
+  </body>
+</html> 
